@@ -5,6 +5,7 @@
 //  Created by Nicolas Camenisch on 18.04.16.
 //  Copyright © 2016 Nicolas Camenisch. All rights reserved.
 //
+
 import GPUImage
 
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
@@ -675,6 +676,7 @@ open class SwiftOCR {
 }
 
 // MARK: SwiftOCRDelegate
+
 public protocol SwiftOCRDelegate: class {
     
     /**
@@ -697,6 +699,7 @@ extension SwiftOCRDelegate {
 }
 
 // MARK: SwiftOCRRecognizedBlob
+
 public struct SwiftOCRRecognizedBlob {
     
     public let charactersWithConfidence: [(character: Character, confidence: Float)]!
