@@ -7,6 +7,9 @@ Optionals ensure that nil values are handled explicitly.
 Memory is managed automatically.
 Error handling allows controlled recovery from unexpected failures.
 
+#guide and sample code:
+https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
+
 #swift programming can be tested on:
 https://swift.sandbox.bluemix.net/#/repl
 
